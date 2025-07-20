@@ -9,7 +9,7 @@ def export_group_with_exact_scale():
 
     folder = "C:/Users/YourName/Desktop/ContourGroups/"  # 저장위치 개인별 수정 필요
 
-    img_size_px = 2835  # 24cm x 24cm @ 300dpi
+    img_size_px = 2835  # 24cm x 24cm (300dpi)
 
     rs.Command("_-DocumentProperties _Appearance _Colors _BackgroundColor _SetToWhite _Enter _Enter", echo=False)
 
