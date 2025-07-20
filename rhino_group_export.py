@@ -7,7 +7,7 @@ def export_group_with_exact_scale():
         print("그룹이 없습니다.")
         return
 
-    folder = "C:/Users/YourName/Desktop/ContourGroups/"  # 수정 필요
+    folder = "C:/Users/YourName/Desktop/ContourGroups/"  # 저장위치 개인별 수정 필요
 
     img_size_px = 2835  # 24cm x 24cm @ 300dpi
 
